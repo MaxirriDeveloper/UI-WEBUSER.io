@@ -1,0 +1,4 @@
+Fondo: #bb60fc
+Vector: #232322
+texto: #ab80dd
+texto: White

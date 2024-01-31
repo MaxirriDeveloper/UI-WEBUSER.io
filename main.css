@@ -1,0 +1,77 @@
+.circleBG {
+  margin-top: 12vmax;
+  margin-left: 40vmax;
+  height: 22vmax;
+  width: 22vmax;
+}
+
+.txtUI {
+  margin-left: 2vmax;
+  margin-top: 0vmax;
+}
+.txtSecond {
+  margin-left: -2vmax;
+  margin-top: 6vmax;
+}
+
+.txtThird {
+  position: absolute;
+  margin-top: 5vmax;
+  left: 12vmax;
+  width: 8vmax;
+  font-size: 12px;
+}
+.pctMenBlack {
+  margin-top: -15vmax;
+  margin-top: -65vmin;
+  margin-left: 43vmax;
+  height: 35vmax;
+  width: 15vmax;
+}
+hr {
+  box-shadow: 0 0 8px #606060;
+}
+.line-separator {
+}
+.righttext {
+  color: white;
+  float: left;
+  position: absolute;
+  left: 75vmax;
+  top: 18em;
+  width: 20rem;
+}
+
+.divisor {
+  box-shadow: 0 0 15px black;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.rating {
+  display: inline-block;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  float: right;
+  cursor: pointer;
+  color: #ccc;
+  transition: color 0.3s;
+}
+
+.rating label:before {
+  content: "\2605";
+  font-size: 20px;
+}
+
+.rating input:checked ~ label,
+.rating label:hover,
+.rating label:hover ~ label {
+  color: #6f00ff;
+  transition: color 0.3s;
+}
